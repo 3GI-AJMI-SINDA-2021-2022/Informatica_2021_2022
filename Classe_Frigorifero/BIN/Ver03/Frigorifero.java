@@ -93,7 +93,7 @@ public class Frigorifero
     }
     //set
     public void setMarca(String ma){
-        this.marca=ma;
+        if(ma!=null) this.marca=ma;
     }
     public void setModello(String mo){
         this.modello=mo;
