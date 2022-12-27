@@ -80,13 +80,12 @@ public class Frigorifero
     }
     //toString
     public String toString(){
+         output = "";
+            output += "marca: " + this.marca + ", modello " + this.modello + ", litri Frigo: " 
+                + litriFrigo + ", litri del Frizer: " + litriFrizer + ", prezzo: " + this.prezzo 
         if(acceso){
-            output = "";
-            output += "marca: " + this.marca + ", modello " + this.modello + ", litri Frigo: " + litriFrigo + ", litri del Frizer: " + litriFrizer + ", prezzo: " + this.prezzo + ", consumo KW: " + this.consumokwat + ", temperatura frigo: " + temperaturaFrigo + ", temperatura Frizer: " + temperaturaFrizer;
-        }else{
-            output = "";
-            output += "marca: " + this.marca + ", modello " + this.modello + ", litri Frigo: " + litriFrigo + ", litri del Frizer: " + litriFrizer + ", prezzo: " + this.prezzo;
-        }
+            output += + ", consumo KW: " + this.consumokwat + ", temperatura frigo: " + temperaturaFrigo + ", temperatura Frizer: " + temperaturaFrizer;
+       }
         return output;
     }
 }
