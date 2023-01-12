@@ -1,13 +1,35 @@
-----------------------------------------------------------------------------------
-******** File README del progetto ********    Qui dovresti descrivere il progetto.
-Chi legge questo file, pur non sapendo nulla del progetto, dovrebbe ottenere tutte
-le informazioni di cui ha bisogno. Probabilmente le informazioni essenziali sono:
-----------------------------------------------------------------------------------
+- #### Classe Java ProgrammaLavatrice (Lavatrice, LavatriceTest)<br />
+- #### Proprietario :
+    [Ajmi Sinda]
+- #### Matricola/Email :
+    20074 | 20074@studenti.marconiverona.edu.it
+- #### Classe :
+    4GI
 
-NOME DEL PROGETTO: Lavatrice
-OBIETTIVO DEL PROGETTO: Creare un programma lavatrice
-VERSIONE oppure DATA: 10/10/2022  
-COME AVVIARE IL PROGETTO: 
-AUTORI: Ajmi Sinda 4GI
-ISTRUZIONI PER L'UTENTE: Aggiunta di costruttori, metodi set() e get(), metodi accesa() e spenta() 
-e il toString().
+## [Versione 1.0] /11/2022
+
+### Aggiunte
+
+### Classi : 
+- Lavatrice che contiente le informazioni e le caratteristiche della lavatrice.<br />
+- LavatriceTest, contiene i metodi da mandere in esecuzione i quali sono stati scritti nella classe Lavatrice.
+
+## [Versione 1.1] /11/2022
+
+### Aggiunte
+
+- Metodi get/set 
+- Costruttore
+- Metodo accendi/spegni
+
+### Modificate
+
+### Non Rilasciate
+
+- Cicli e Condizioni 
+
+## [Versione 1.2] /11/2022
+
+### Aggiunte
+
+- Metodo toString()
