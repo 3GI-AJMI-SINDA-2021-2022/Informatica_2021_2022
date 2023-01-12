@@ -6,7 +6,7 @@
 - #### Classe :
     4GI
 
-## [Versione 1.0] 25/11/2022
+## [Versione 1.0] 20/12/2022
 
 ### Aggiunte
 
@@ -14,7 +14,7 @@
 - Lavatrice che contiente le informazioni e le caratteristiche della lavatrice.<br />
 - LavatriceTest, contiene i metodi da mandere in esecuzione i quali sono stati scritti nella classe Lavatrice.
 
-## [Versione 1.1] 25/11/2022
+## [Versione 1.1] 20/12/2022
 
 ### Aggiunte
 
@@ -28,7 +28,7 @@
 
 - Cicli e Condizioni 
 
-## [Versione 1.2] 25/11/2022
+## [Versione 1.2] 20/12/2022
 
 ### Aggiunte
 
