@@ -25,10 +25,6 @@
 
 ### Modificate
 
-### Non Rilasciate
-
-- Cicli e Condizioni 
-
 ## [Versione 1.2] 16/11/2022
 
 ### Aggiunte
