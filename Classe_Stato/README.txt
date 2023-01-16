@@ -1,7 +1,23 @@
-NOME DEL PROGETTO: Stato
-OBIETTIVO DEL PROGETTO: Creare una classe Stato
-VERSIONE oppure DATA: 16/11/22
-COME AVVIARE IL PROGETTO:
-AUTORI: Ajmi Sinda 4GI
-ISTRUZIONI PER L'UTENTE: Aggiunta dei metodi Stato piùEsteso(), fare confronto, metodo densità()
-e toString().
+- #### Classe Java ProgrammaLavatrice (Stato)<br />
+- #### Proprietario :
+    [Ajmi Sinda]
+- #### Matricola/Email :
+    20074 | 20074@studenti.marconiverona.edu.it
+- #### Classe :
+    4GI
+
+## [Versione 1.0] 25/12/2022
+
+### Aggiunte
+
+### Classi : 
+- Stato che contiente le informazioni e le caratteristiche dello stato.
+
+## [Versione 1.1] 25/12/2022
+
+### Aggiunte
+
+- Metodi Stato piùEsteso()
+- Confronto
+- Metodo densità
+- Metodo toString()
