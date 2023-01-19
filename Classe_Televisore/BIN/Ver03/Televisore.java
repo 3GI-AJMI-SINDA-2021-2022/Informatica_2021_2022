@@ -78,22 +78,22 @@ public class Televisore{
     
     //addizionale
     public void setPollici(int p){
-        this.pollici=p;
+        if(p!=null) this.pollici=p;
     }
     public void setSchermo(String s){
-        this.schermo=s;
+        if(s!=null) this.schermo=s;
     }
-    public void setColore(String c){
-        this.colore=c;
+    public void setColore(String col){
+        if(col!=null) this.colore=col;
     }
     public void setCanale(int c){
-        this.canale=c;
+        if(c!=null) this.canale=c;
     }
     public void setVolume(int v){
-        this.volume=v;
+        if(v!=null) this.volume=v;
     }
     public void setLuminos(int l){
-        this.luminos=l;
+        if(l!=null) this.luminos=l;
     }
     public boolean getStato(){
         return this.acceso;
