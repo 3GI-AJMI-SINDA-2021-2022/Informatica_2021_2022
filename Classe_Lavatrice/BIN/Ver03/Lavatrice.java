@@ -76,7 +76,7 @@ public class Lavatrice
         this.acceso=false;
     }
     public void setTemperatura(int t){
-        this.temperatura=t;
+        if(t!=null) this.temperatura=t;
     }
     public void aumentaTemperatura(){
         this.temperatura+=1;
@@ -85,25 +85,25 @@ public class Lavatrice
         this.temperatura-=1;
     }
     public void setMarca(String m){
-        this.marca=m;
+        if(m!null) this.marca=m;
     }
     public void setModello(String mod){
-        this.modello=mod;
+        if(mod!=null) this.modello=mod;
     }
     public void setgiriCentrifuga(int c){
-        this.giriCentrifuga=c;
+        if(c!=null) this.giriCentrifuga=c;
     }
     public void setPrezzo(double p){
-        this.prezzo=p;
+        if(p!=null) this.prezzo=p;
     }
     public void setTempo(){
         this.tempo=tempo;
     }
     public void setKg(int kg){
-        this.kg=kg;
+        if(kg!=null) this.kg=kg;
     }
     public void setProgramma(int pro){
-        this.programma=pro;
+        if(pro!=null) this.programma=pro;
     }
     public int getTemperatura(){
         return temperatura;
