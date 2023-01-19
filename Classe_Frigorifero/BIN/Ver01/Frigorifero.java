@@ -37,7 +37,7 @@ public class Frigorifero
             }else{
                 marca = "indefinito";
             }
-            if(mo != null){
+            if(ma != null){
                 modello = mo;
             }else{
                 modello = "indefinito";
