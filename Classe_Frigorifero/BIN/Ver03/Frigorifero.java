@@ -114,7 +114,7 @@ public class Frigorifero
         if(tFrigo!=null) this.temperaturaFrigo=tFrigo;
     }
     public void setTemperaturaFrizer(int tFrizer){
-            if(tFrizer!=null) this.temperaturaFrizer=tFrizer;
+        if(tFrizer!=null) this.temperaturaFrizer=tFrizer;
     }
     //get
     public String getMarca(){
