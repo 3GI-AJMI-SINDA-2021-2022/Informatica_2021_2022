@@ -96,25 +96,25 @@ public class Frigorifero
         if(ma!=null) this.marca=ma;
     }
     public void setModello(String mo){
-        this.modello=mo;
+        if(mo!=null) this.modello=mo;
     }
     public void setLitriFrigo(int lFrigo){
-        this.litriFrigo=lFrigo;
+        if(lFrigo!=null) this.litriFrigo=lFrigo;
     }
     public void setLitriFrizer(int lFrizer){
-       this.litriFrizer=lFrizer;
+       if(lFrizer!=null) this.litriFrizer=lFrizer;
     }
     public void setPrezzo(double p){
-       this.prezzo=p;
+       if(p!=null) this.prezzo=p;
     }
     public void setConsumoKWat(int c){
-        this.consumokwat=c;
+        if(c!=null) this.consumokwat=c;
     }
     public void setTemperaturaFrigo(int tFrigo){
-        this.temperaturaFrigo=tFrigo;
+        if(tFrigo!=null) this.temperaturaFrigo=tFrigo;
     }
     public void setTemperaturaFrizer(int tFrizer){
-            this.temperaturaFrizer=tFrizer;
+            if(tFrizer!=null) this.temperaturaFrizer=tFrizer;
     }
     //get
     public String getMarca(){
