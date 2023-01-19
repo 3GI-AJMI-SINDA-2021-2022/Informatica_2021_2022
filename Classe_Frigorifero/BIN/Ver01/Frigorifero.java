@@ -32,12 +32,12 @@ public class Frigorifero
             temperaturaFrizer = 0;
     }
     public Frigorifero(String ma, String mo, int lFrigo, int lFrizer, double pr, boolean a, int c, int tFrigo, int tFrizer){
-            if(ma != null){
+            if(ma!= null){
                 marca = ma;
             }else{
                 marca = "indefinito";
             }
-            if(ma != null){
+            if(mo!= null){
                 modello = mo;
             }else{
                 modello = "indefinito";
