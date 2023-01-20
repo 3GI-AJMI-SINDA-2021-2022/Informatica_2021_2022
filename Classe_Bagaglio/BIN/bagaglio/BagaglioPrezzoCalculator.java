@@ -10,7 +10,7 @@ public class BagaglioPrezzoCalculator    {
         public void start(){
             this.descriviAttività();
             this.prendiInput();
-            this.calcolaPrezzo();
+            //this.calcolaPrezzo(); se non salvi il valore in una variabile, a cosa ti serve richiamarlo?
             this.visualizzaRisultati();
         }
         public double calcolaPrezzo(){
