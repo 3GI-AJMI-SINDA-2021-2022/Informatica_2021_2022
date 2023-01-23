@@ -1,5 +1,5 @@
 
-- #### Classe Java ProgrammaLavatrice (Bagaglio, BagaglioPrezzoCalculator, BagaglioTest)<br />
+- #### Classe Java ProgrammaBagaglio (Bagaglio, BagaglioPrezzoCalculator, BagaglioTest)<br />
 - #### Proprietario :
     [Ajmi Sinda]
 - #### Matricola/Email :
