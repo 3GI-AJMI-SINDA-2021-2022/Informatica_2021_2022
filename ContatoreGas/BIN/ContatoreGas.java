@@ -1,5 +1,6 @@
 //Sia data la classe ContatoreGas, sviluppare la classe BollettaCalculator.
 Public class ContatoreGas {
+	private static final double MAX_CONS=9999.999;
         private double consumoAttuale;
         private double consumoPrecedente;
         public ContatoreGas(){
@@ -33,6 +34,14 @@ Public class ContatoreGas {
                 return false;
             }
         }
+	public double getConsumi(){
+		int ris= rilevazioneAtt-rilevazionePrec;
+		if (ris> 0){
+			return ris;
+		}else{
+			return((MAX_CONS-rilevazionePrec)+rilevazioneAtt);
+		}
+	}
         public void setRilevazionePrecedente(double consPrec){
             if(consPrec>=0){
                 this.consumoPrecedente= consPrec;
