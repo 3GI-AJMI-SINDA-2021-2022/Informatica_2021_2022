@@ -1,4 +1,4 @@
-- #### Classe Java ProgrammaLavatrice (Televisore, TelevisoreTest)<br />
+- #### Classe Java ProgrammaTelevisore (Televisore, TelevisoreTest)<br />
 - #### Proprietario :
     [Ajmi Sinda]
 - #### Matricola/Email :
