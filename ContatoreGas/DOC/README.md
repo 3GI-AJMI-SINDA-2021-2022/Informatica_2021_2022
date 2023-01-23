@@ -1,4 +1,4 @@
-- #### Classe Java ProgrammaLavatrice (ContatoreGas, BollettaPrezzoCalculator, BollettaTest)<br />
+- #### Classe Java ProgrammaContatoreGas (ContatoreGas, BollettaPrezzoCalculator, BollettaTest)<br />
 - #### Proprietario :
     [Ajmi Sinda]
 - #### Matricola/Email :
