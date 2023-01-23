@@ -1,5 +1,5 @@
 
-- #### Classe Java ProgrammaLavatrice (Frigorifero, FrigoriferoTest)<br />
+- #### Classe Java ProgrammaFrigorifero (Frigorifero, FrigoriferoTest)<br />
 - #### Proprietario :
     [Ajmi Sinda]
 - #### Matricola/Email :
