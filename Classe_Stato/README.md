@@ -1,4 +1,4 @@
-- #### Classe Java ProgrammaLavatrice (Stato)<br />
+- #### Classe Java ProgrammaStato (Stato)<br />
 - #### Proprietario :
     [Ajmi Sinda]
 - #### Matricola/Email :
