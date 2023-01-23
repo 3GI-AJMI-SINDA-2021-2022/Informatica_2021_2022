@@ -1,27 +1,27 @@
 public class BollettaCalculator    {
         private static final int VALORE_MAX=9999;
-        private int ContatoreGas;
+        private ContattoreGas c;
         public BollettaCalculator(){
-            ContatoreGas c = new ContatoreGas();
+            c = new ContatoreGas();
         }
         public void start(){
             this.descriviApp();
             this.prendiInput();
             this.visualizzaRisultati();
-            System.out.println(this.visualizzaRisultati);
-        }
+	}
         public void descriviApp(){
-	        System.out.println("In questa app verranno svolti dei calcoli per arrivare al consumo della bolletta");
+	        System.out.println("In questa app verranno svolti dei calcoli per calcolare l'importo della bolletta del gas");
         }
         public void prendiInput(){
             Scanner input = new Scanner(System.in);
+	    double val;
             System.out.println("Inserisci il consumo della bolletta");
-            c.setRilevazioneAttuale(input.nextDouble());
-            while(c.getconsumo()>VALORE_MAX){
-                c.setRilevazioneAttuale(input.nextDouble());
+            val=input.nextDouble());
+            while(!letturaConsumi(val)){
+                val= input.nextDouble());
             }
         }
-        public double visualizzaRisultati(){
-            return (c.getConsumoAtt()-c.getConsumoPrec());
+        public void visualizzaRisultati(){
+            System.out.println(c.calcolaBolletta());
         }
 }
