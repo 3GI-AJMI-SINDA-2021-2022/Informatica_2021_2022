@@ -29,6 +29,9 @@ public class BollettaCalculator    {
 	    c.setConsumoAtt(val);
         }
         public void visualizzaRisultati(){
-            System.out.println(c.calcolaBolletta());
+	    double ris=c.calcolaConsumi();
+	    System.out.println(c.toString());
+	    System.out.println("IL CONSUMO DEL GAS AMMONTA A: "+ris);
+            System.out.println("IL TOTALE DELLA BOLLETTA E': "+ris*COSTO_MQ_GAS);
         }
 }
