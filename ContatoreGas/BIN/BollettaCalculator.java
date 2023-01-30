@@ -1,5 +1,5 @@
 public class BollettaCalculator    {
-        private static final int VALORE_MAX=9999;
+        private static final double COSTO_MQ_GAS=3.05;
         private ContattoreGas c;
         public BollettaCalculator(){
             c = new ContatoreGas();
@@ -15,11 +15,18 @@ public class BollettaCalculator    {
         public void prendiInput(){
             Scanner input = new Scanner(System.in);
 	    double val;
-            System.out.println("Inserisci il consumo della bolletta");
+	    System.out.println("Inserisci il consumo precedente della bolletta");
+	    val=input.nextDouble());
+            while(val<0.0)){
+                val= input.nextDouble());
+            }
+	    c.setConsumoPrec(val);
+            System.out.println("Inserisci il consumo attuale della bolletta");
             val=input.nextDouble());
             while(!letturaConsumi(val)){
                 val= input.nextDouble());
             }
+	    c.setConsumoAtt(val);
         }
         public void visualizzaRisultati(){
             System.out.println(c.calcolaBolletta());
