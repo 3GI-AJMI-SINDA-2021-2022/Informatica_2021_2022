@@ -18,22 +18,15 @@ Public class ContatoreGas {
         public void setRilevazioneAttuale(double consAtt){
             if(consAtt>=0){
                 this.rilevazionePrec= this.rilevazioneAtt;
-		if(rilevazioneAtt + consAtt > MAX_CONS){
-			this.rilevazioneAtt = rilevazioneAtt + consAtt - (MAX_CONS);
+		if(consAtt > MAX_CONS){
+			this.rilevazioneAtt = consAtt - (MAX_CONS);
 		}else{
 			this.rilevazioneAtt=consAtt;
 		}
 	     }	
 
         }
-        public boolean letturaContatore(double consumo){
-            if(consumo>=0.0){
-                setRilevazioneAttuale(consumo);
-                return true;
-            }else{
-                return false;
-            }
-        }
+        
 	public double getConsumi(){
 		int ris= rilevazioneAtt-rilevazionePrec;
 		if (ris> 0){
