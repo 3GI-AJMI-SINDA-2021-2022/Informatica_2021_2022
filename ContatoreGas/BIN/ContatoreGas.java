@@ -47,6 +47,10 @@ Public class ContatoreGas {
             return consumoPrecedente;
         }
         public String toString(){
-                //completare
+        String out = 	"____________________________________________________\n";
+        out += "Il contatore ha il consumo precedente = " + this.consumoPrecedente + 	"\n";
+        out += "Il contatore ha il consumo attuale = " + this.consumoAttuale + "\n";
+
+	return out;
         }
 }
