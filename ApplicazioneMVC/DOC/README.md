@@ -14,15 +14,15 @@
 ### Aggiunte
 
 ### Classi:
--Applicazione + ApplicazioneListener
+-Applicazione + ApplicazioneListener <br>
 -ApplicazioneTest
 
 ## [Versione 1.1] 18/05/2023
 ### Aggiunte
 
--Metodo apertura.
--Metodo versamento.
--Metodo pagamento.
+-Metodo apertura. <br>
+-Metodo versamento. <br>
+-Metodo pagamento. <br>
 -Metodo visualizzazione.
 
 ## [Versione 1.2] 19/05/2023
