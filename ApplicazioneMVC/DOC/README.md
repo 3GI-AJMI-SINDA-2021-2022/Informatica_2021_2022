@@ -1,4 +1,4 @@
--### Classe Java ProgrammaBagaglio (Applicazione, ApplicazioneTest)
+-### Classe Java ProgrammaApplicazione (Applicazione, ApplicazioneTest)
 
 -### Proprietario:
   [Ajmi Sinda]
