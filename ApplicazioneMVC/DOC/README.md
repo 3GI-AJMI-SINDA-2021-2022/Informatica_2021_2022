@@ -14,8 +14,8 @@
 ### Aggiunte
 
 ### Classi:
--Applicazione + ApplicazioneListener <br>
--ApplicazioneTest
+-Applicazione + ApplicazioneListener. <br>
+-ApplicazioneTest.
 
 ## [Versione 1.1] 18/05/2023
 ### Aggiunte
@@ -28,6 +28,6 @@
 
 ## [Versione 1.2] 19/05/2023
 ### Modifiche
--Bottoni
--Dimensioni pagina
+-Bottoni. <br>
+-Dimensioni pagina.
 
