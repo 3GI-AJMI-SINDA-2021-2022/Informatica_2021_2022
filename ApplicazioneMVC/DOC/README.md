@@ -23,9 +23,11 @@
 -Metodo apertura. <br>
 -Metodo versamento. <br>
 -Metodo pagamento. <br>
--Metodo visualizzazione.
+-Metodo visualizzazione. <br>
+-Bottoni.
 
 ## [Versione 1.2] 19/05/2023
-### Aggiunte
+### Modifiche
 -Bottoni
+-Dimensioni pagina
 
