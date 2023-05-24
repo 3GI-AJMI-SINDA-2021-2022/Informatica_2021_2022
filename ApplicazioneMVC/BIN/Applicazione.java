@@ -125,7 +125,7 @@ public class Applicazione extends JFrame{
     public void visualizzazioneApplicazione(){
         txtnumUtente.setText(Double.toString(saldo));
     }
-
+    // perchè public e non private?????
     public class ApplicazioneListener implements ActionListener{
         public void actionPerformed(ActionEvent e){
             JButton button = (JButton) e.getSource(); //serve a salvare il nome del pulsante premuto
@@ -137,7 +137,7 @@ public class Applicazione extends JFrame{
                 System.out.println("Pagamento");
                 pagamentoApplicazione();
             }else{
-                System.out.println("Visualizza");
+                System.out.println("Visualizza"); //non viene svolta nessuna operazione sul conto corrente.
                 visualizzazioneApplicazione();
             }
         }
