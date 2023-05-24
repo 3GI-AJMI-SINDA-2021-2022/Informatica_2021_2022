@@ -19,6 +19,8 @@ public class LibriCalculator {
     }
 
     private void leggiFIle(){
+        String linea;
+        String[] lineaSplit;
         Scanner input = new Scanner(System.in);
         System.out.println("Inserisci directory del file : ");
         String locazioneFile = input.nextLine();
@@ -26,8 +28,8 @@ public class LibriCalculator {
             File file = new File(locazioneFile);
             Scanner lettura = new Scanner(file);
             while (lettura.hasNext()){
-                String linea = lettura.nextLine();
-                String[] lineaSplit = linea.split(";");
+                linea = lettura.nextLine();
+                lineaSplit = linea.split(";");
                 immagazzinaEdInserisci(lineaSplit);
             }
 
@@ -70,16 +72,16 @@ public class LibriCalculator {
                         int temp = arrayNumeroPagine[j-1];
                         arrayNumeroPagine[j-1] = arrayNumeroPagine[j];
                         arrayNumeroPagine[j] = temp;                 
-                    }
+                    }//non sposti il titolo del libro, quindi l'ordinamento non funziona
                 }
-            }
+            }/*
             for (int k = 0; k < lista.size(); k++){
                 for (Libri l : lista){
                     if (arrayNumeroPagine[k] == l.getNumPagine()){
                         titoliLibri[k] = l.getTitolo();
                     }
                 }
-            }
+            }*/ questo rende inutile l'array titoliLibri
             for (int k = 0; k < lista.size(); k++){
                 System.out.println(titoliLibri[k] + "\t");
                 System.out.println(arrayNumeroPagine[k]);
@@ -93,7 +95,7 @@ public class LibriCalculator {
         String controlloAutore = input.nextLine();
         for (Libri l : lista){
             if (controlloAutore.equals(l.getAutore())){
-                System.out.println(l.getAutore() + " : " + l.getTitolo());
+              //System.out.println(l.getAutore() + " : " + l.getTitolo()); dovrebbe scrivere su file 
             }
         }
     }
